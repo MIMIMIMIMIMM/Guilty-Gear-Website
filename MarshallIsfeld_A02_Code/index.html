@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Stalinist+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Goldman"
+      rel="stylesheet"
+    />
+
+    <title>Code a Fan Website</title>
+  </head>
+
+  <body>
+    <div class="page_bordercolumn1"></div>
+    <div class="page_bordercolumn2"></div>
+    <div class="container">
+      <div class="top_button">
+        <a href="#top"><p>Top</p></a>
+      </div>
+      <!--This area contains the landing hero image and navigation links-->
+
+      <div class="landing_container">
+        <div class="navigation_container">
+          <div class="nav about">
+            <a href="#about">About</a>
+          </div>
+          <div class="nav characters">
+            <a href="#characters">Characters</a>
+          </div>
+          <div class="nav recommend">
+            <a href="#recommend">Recommendations</a>
+          </div>
+
+          <div class="nav reviews">
+            <a href="#reviews">Reviews</a>
+          </div>
+          <div class="nav related">
+            <a href="#related">Related Content</a>
+          </div>
+        </div>
+      </div>
+
+      <!--This area is for the About Section Header-->
+      <div class="header" id="about">
+        <h1>About</h1>
+      </div>
+
+      <!-- about section starts here -->
+      <div class="about_container">
+        <div class="about_content">
+          <div class="text_box" id="abouttxt">
+            <p></p>
+            <p>
+              Guilty Gear revolves around the protagonist, Frederick Bulsara,
+              also known as Sol Badguy. It is a fighting game that gained
+              popularity with Guilty Gear: Strive in 2018, though it remained
+              well-known through Guilty Gear Xrd Rev 2: Revelator. The series
+              takes place in America, following an apocalyptic-level event. This
+              moment occurs in 1999 when a mysterious prophet predicts a
+              catastrophic event that will change humanity forever.
+            </p>
+            <p>
+              By the end of 1999, few people had heeded the prophet's warnings.
+              When the predicted event happens, it causes a worldwide failure of
+              all electronic devices capable of transmitting or receiving
+              information. During this crisis, every device, in all languages
+              and networks, broadcasts a cryptic message: “In a few days…
+              humanity will crumble.” Shortly after, all electronic devices and
+              machines stop working. Several cities are struck by natural
+              disasters, destroying them completely. Food and water become
+              scarce as transportation and manufacturing infrastructure
+              collapse.
+            </p>
+            <p>
+              As society unravels, the prophet and the few who listened come
+              forward with a plan to rebuild humanity without technology. They
+              propose teaching humanity magic as a replacement for technological
+              power. The nations study and harness magic, eventually helping
+              humanity regain stability. By 2016, the government invested
+              heavily in the Ecosystem Evolution Project, developed by
+              Frederick, Aria, and " That Man. " This project aims to cure
+              terminal diseases and potentially enhance the human body through
+              'gear cells." During the project, Aria develops a terminal
+              illness, prompting Frederick and " That Man " to put her into
+              cryostasis until completion.
+            </p>
+            <p>
+              However, the nations demand the research and send military forces
+              to seize it, just as the project nears its conclusion. An accident
+              at the lab causes Aria and “That Man” to go missing, and Frederick
+              is presumed dead. However, he survives, transformed after being
+              imbued with the cells being developed, becoming a "Gear." Now, he
+              searches for Aria and “That Man.
+            </p>
+          </div>
+
+          <div class="about_img">
+            <img
+              src="images/Justice.png"
+              alt="A large robotic humanoid with red hair"
+              class="justice"
+            />
+            <h2 id="justice">Justice</h2>
+            <p id="justice_p">(Big Problem)</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- This section is for the characters and their biographies-->
+
+      <div class="character_container">
+        <div class="header" id="characters">
+          <h2>Characters</h2>
+        </div>
+
+        <!-- this is sol badguys section -->
+        <div class="character" id="sol">
+          <div class="splash_frame" id="sol">
+            <img
+              class="splash"
+              src="images/Sol_Large.png"
+              alt="A muscular, long brown-haired man wearing a red leather jacket wielding a large rectangular sword"
+            />
+          </div>
+
+          <!---->
+          <div class="biocontainer" id="sol">
+            <h2>Sol Badguy</h2>
+            <div class="video_container">
+              <video id="solvid" autoplay muted loop>
+                <source src="videos/Sol.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="text_box" id="sol">
+              <p>
+                Initially a scientist, he was straightforward and rather
+                austere, with an unwavering sense of integrity, even at the
+                disdain of others. After he is transformed into a gear, it
+                brought his negative aspects to the surface. Now described as a
+                “meathead”, he has troubles expressing himself, and when that
+                doesn't work, he opts to use brute force instead. Preferring to
+                work alone, he won't tolerate anyone's antics and can't be
+                dissuaded once he's set on something.
+              </p>
+            </div>
+            <h2>Frederick Bulsara</h2>
+          </div>
+        </div>
+
+        <!-- this is jacko's section -->
+        <div class="character" id="jacko">
+          <div class="splash_frame">
+            <img
+              class="splash"
+              src="images/Jack-O_Large.png"
+              alt="A long red haired woman, with a cracked halo, wearing a white one-piece suit with a v-neck and split bell-bottomed pant legs"
+            />
+          </div>
+          <div class="biocontainer" id="jacko">
+            <h2>Jack-O Valentine</h2>
+            <div class="video_container">
+              <video id="solvid" autoplay muted loop>
+                <source src="videos/JackO.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="text_box" id="jacko">
+              <p>
+                An artificial human gear hybrid, implanted with Aria's
+                consciousness. Her memories and identity are unstable, although
+                that's changed as of late. Currently housing the complete “soul”
+                of Aria, her memories are repressed by Jack-O's own memories,
+                leaves her wondering if she's Jack-O or Aria and if she deserves
+                to live on as Jack-O.
+              </p>
+            </div>
+            <h2>Aria Hale</h2>
+          </div>
+        </div>
+
+        <!-- This is Asuka's section -->
+        <div class="character" id="asuka">
+          <div class="splash_frame">
+            <img
+              class="splash"
+              src="images/Asuka_Large.png"
+              alt="A young man wearing white and green flowing robes, wielding a large staff and wearing a cape with a galaxy/stars inside of it "
+            />
+          </div>
+
+          <div class="biocontainer" id="asuka">
+            <h2>Asuka.R Kreutz</h2>
+            <div class="video_container">
+              <video id="solvid" autoplay muted loop>
+                <source src="videos/Asuka.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="text_box" id="asuka">
+              <p>
+                Creator of the Gears, public enemy number one, and scholar of
+                The Original. Sols biggest source of anger. A mysterious man who
+                speaks cryptically and leaves his intentions vague, resulting in
+                discord more often than not. Caused the destruction of a nation
+                due to the Gear “Justice” going rampant. He lives on the moon
+                now hosting a radio show and trying to create a clone of
+                himself.
+              </p>
+            </div>
+            <h2>That Man</h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- This area here is the recommendations section-->
+      <div class="header" id="recommend">
+        <h2>Why you should try it</h2>
+      </div>
+      <div class="recommendations">
+        <!--This is the main body-->
+
+        <div class="rec_content">
+          <div class="text_box" id="rec">
+            <p>Why I like it, and why someone should give it a go.</p>
+
+            <p>
+              I enjoy the Guilty Gear series, especially the newest iteration of
+              it. Guilty Gear Strive is the newest game in the series featuring
+              fan favorites and even brand-new characters. I believe anyone can
+              enjoy it, even if you're not into fighting games, as the story is
+              very interesting.
+            </p>
+            <p>
+              There are deep interpersonal issues that make understanding the
+              complexity of some characters a bit harder beyond the surface
+              level. You'll find, as you peel back the layers on a character you
+              find interesting, their more than just a meathead or
+              sword-wielding guy. Not that that's anything ground-breaking, but
+              it feels like the characters could be real people.
+            </p>
+            <p>
+              While I can't relate to fighting skyscraper sized monsters, I find
+              it helpful they explore things like stripping yourself of ideals
+              that you carry from the expectations of society, parents, or
+              friends to find out who you truly are. Learning to express oneself
+              without fear or shame Very few of the characters are “good” or
+              “bad” and are more like people reacting to the hand they were
+              dealt and trying their best to deal with it.
+            </p>
+            <p>
+              Even those who've committed horrible acts didn't do so for the fun
+              of it. Those who were “evil” try to make up for it, even if they
+              know people won't forgive them. The soundtrack is great, most fans
+              joke it's an album that comes with a free game.
+            </p>
+          </div>
+          <div class="rec_img">
+            <img
+              src="images/Elphelt_Large.png"
+              alt=" A white haired young woman wearing a pink leather jacket, white dress and pink stockings and heels"
+            />
+            <h2>It's got Elphelt in it!</h2>
+          </div>
+        </div>
+      </div>
+
+      <!--This area here is the review section-->
+      <div class="header" id="reviews">
+        <h2>Reviews</h2>
+      </div>
+      <div class="review_container">
+        <!-- This section contains the reviews -->
+        <div class="review 1">
+          <div class="profile">
+            <img
+              src="images/Review_1.png"
+              alt="A man with glasses holding a laptop with a caption: how to succeed at this role"
+            />
+            <p>GregTheMarauder</p>
+          </div>
+
+          <div class="text_container">
+            <img
+              src="images/Stars.png"
+              alt="A picture with 5 gold strs"
+              class="stars"
+            />
+            <div class="text_box" id="rev_1">
+              <p>
+                Ranked got fixed which is a massive improvement Really what drew
+                me in is how different much of the characters play from one
+                another. Closest example I can think of would be like how
+                Dhalsim plays vs the rest of the cast of SF. GGST has more of
+                thatNot a big anime fighter fan, but this one drew me in and I
+                really fell in love with this game for their design for
+                character kits, especially when I saw Asuka. Character with a
+                mana bar that is spent on spells that are prepared from 3
+                selectable books of spells is the kind of vision I love
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review 2">
+          <div class="profile">
+            <img
+              src="images/Review_2.png"
+              alt="An anime woman with black hair and blue streaks in her hair"
+            />
+            <p>Unika</p>
+          </div>
+          <div class="text_container">
+            <img
+              src="images/Stars(1).png"
+              alt="An image containing a rating of four out of five stars"
+            />
+            <div class="text_box" id="rev_2">
+              <p>
+                I did not like fighting games until I played Guilty Peak Strive,
+                but this game has made me love them!!!!! i'm not sure if I would
+                say it's beginner friendly, but as a new fighting game player I
+                had an absolute blast :3 Also the cast is filled with fun and
+                unique characters, my personal favorite is Unika
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review 3">
+          <div class="profile">
+            <img
+              src="images/Review_3.png"
+              alt="A picture of a middle aged lawyer posing professionally, there is a gold picture frame around him"
+            />
+            <p>James Mcgill Esq.</p>
+          </div>
+          <div class="text_container">
+            <img
+              src="images/Stars.png"
+              alt="5 gold stars as a rating"
+              class="stars"
+            />
+            <div class="text_box" id="rev_3">
+              <em>
+                <p>Game for gay people only</p>
+              </em>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header" id="related">
+        <h2>You May also Enjoy</h2>
+      </div>
+
+      <div class="related_container">
+        <!--The section containing Cyberpunk 2077-->
+        <div class="cp2077_container">
+          <img
+            src="images/CP2077_Logo.png"
+            alt="the words: cyberpunk 2077 are spelled out, yellow in color, with the numbers blue in color"
+          />
+          <img
+            src="images/V.png"
+            alt="A robotically altered middle-aged man with a buzz cut wearing a leather jacket wielding a handgun"
+          />
+          <div class="text_container">
+            <div class="text_box">
+              <p>
+                Cyberpunk 2077 is a story set in the future, it shows a
+                dystopic, technologically advanced civilization set in a large
+                city called Night City. You play as a V, someone trying to
+                engrave their name among legends before being swallowed by the
+                city. This story is shows just how similar society functions in
+                the far off future compared to today, despite how advanced it
+                has become. Homeless litter the streets, hyper-individualism is
+                rampant, corporations dominate and have deep hooks in all
+                corners of society. I think you’d like this game because it
+                shows how despite how terrible society can be, there are people
+                out there who strive to do good, even if they won’t see the
+                results of their efforts.
+              </p>
+            </div>
+
+            <strong>
+              <a href="https://www.cyberpunk.net/ca/en/" target="_blank"
+                >Learn More: cyberpunk.net</a
+              ></strong
+            >
+          </div>
+        </div>
+
+        <!--The section containing resident evil 4-->
+        <div class="re4_container">
+          <img
+            src="images/RE4_Logo.png"
+            alt="Resident Evil Four is spelled out in black with the letters R and E in red"
+          />
+          <img
+            src="images/Leon.png"
+            alt="a young man wielding a handgun with a laser, looks sternly to the distance"
+          />
+          <div class="text_container">
+            <div class="text_box">
+              <p>
+                Resident Evil is a survival horror game situated in Spain, the
+                main character Leon Scott Kennedy is searching for the
+                Presidents daughter - Ashley Graham who has been abducted by an
+                organization whose goals are unknown. You encounter villagers
+                living plain farmers lifestyles, but something is strange. They
+                all seem to be deranged and hostile to outsiders. I think you'd
+                like this game a lot if you like strive, it's not a fighting
+                game but it's got similar over-the-top action and humor adjacent
+                to the survival horror it's built on. It's heavily inspired by
+                corny 80's action movies, with Leon spouting stupid one-liners
+                at every opportunity. It's fairly simple story-wise but I find
+                this simplicity allows the characters to shine better as less
+                complexity allows better comprehension, which leads to a better
+                experience in my opinion.
+              </p>
+            </div>
+            <strong
+              ><a href="https://www.residentevil.com" target="_blank"
+                >Learn more: residentevil.com
+              </a></strong
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
